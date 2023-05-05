@@ -1,6 +1,5 @@
 package com.vynce.communityridesbackend;
 
-
-public record Ride(long id, String content) {
+public record Ride(String id, String content) {
 
 }
